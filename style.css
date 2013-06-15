@@ -1,0 +1,428 @@
+/*
+Theme Name: Coffee Shop
+Theme URI: http://www.brymka17.wordpress.com
+Author: Desi
+Description: Just a theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, black, theme-options, translation-ready
+
+
+*/
+
+span, h1, h2, h5, h6, ol, label, legend, caption,details, figcaption, figure, hgroup, menu,  section, summary {
+    margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	
+}
+
+/************************ Basics ************************/
+html {
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #fff;
+}
+ul li{
+    list-style: none;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+#content{
+    margin: 0 auto;
+    width: 960px;
+    margin-top: -100px;
+}
+
+#logo{
+	padding-top: 120px; 
+	width: 20%;
+}
+.nav-menu{
+	background-color:#292a29;
+	width: 100%;
+	height: 300px;
+	margin-top: -40px;
+}
+#search{
+    margin-left: 660px;
+    margin-top: -100px;
+}
+nav{
+    margin-left: 455px;
+}
+a{
+    text-decoration: none;
+}
+#hnav a{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration:none;
+	float:left;
+	text-transform: uppercase;
+	color: #e5e5e5;
+	opacity: 0.7;
+	margin-top: 40px;
+}
+#hnav a:hover{
+    color: #f46b49;
+	opacity: 1;
+}
+ul li a{
+    margin-left: 15px; 
+}
+
+#copyright{  
+    margin-top: 30px;
+    color: #e5e5e5;
+	opacity: 0.7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 400px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.footer-bar{
+    background-color:#292a29;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	color: #666;
+	font-family: Georgia, serif;
+	font-size: 12px;
+}
+.sticky{}
+
+.bypostauthor{}
+.alignright{}
+.alignleft{}
+.aligncenter{}
+
+#categories{
+    width: 60%;
+}
+#categories ul li{
+    list-style-type: none;
+}
+#categories ul li a{
+    margin-left: 360px;
+    list-style: none;
+    color: #e5e5e5;
+    opacity: 0.7;
+    font-family: Arial;
+    font-size: 12px;
+}
+#categories ul li a:hover{
+    color: #f46b49;
+}
+#categories h3{
+    color: #fff;
+    margin-left: 400px;
+    padding-top: 20px;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.0em;
+}
+#stuff{
+    margin-top: -175px;
+}
+#stuff ul li{
+    list-style-type: none;
+}
+#stuff h3{
+    color: #fff;
+    margin-left: 600px;
+    padding-top: 20px;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.0em;
+}
+#stuff ul li a{
+    margin-left: 560px;
+    list-style: none;
+    color: #e5e5e5;
+    opacity: 0.7;
+    font-family: Arial;
+    font-size: 12px;
+}
+#stuff ul li a:hover{
+    color: #f46b49;
+}
+.post-box{
+	float: left;
+    
+	width: 350px;
+}
+.post{
+	width: 350px;
+	margin-top: 5px;
+	padding: 20px;
+	border-bottom: 1px dotted #ddd;
+	overflow: hidden;
+	
+}
+.post h1 a{
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.0em;
+	background-color: #f46b49;
+    border: 2px solid #f46b49;
+}
+
+.post-details {
+    width: 560px;
+    font-family: Arial;
+}
+.post-details a{
+    color: #292a29;
+}
+.post-details-left {
+    padding: 5px;
+    font-size:12px;
+    font-style: italic;
+}
+.post-details-right{
+    margin-top: 10px;
+    margin-left: 180px;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+#older-posts{
+    margin-top: 90px;
+    font-family: "Georgia",serif;
+    font-size: 12px; 
+        
+}
+#newer-posts {
+    font-family: "Georgia",serif;
+    font-size: 12px; 
+}
+#older-posts a{
+    color: #000;
+}
+#newer-posts{
+    color: #000;
+}
+#older-posts a:hover{
+    color: #f46b49;
+}
+#newer-posts a:hover{
+    color: #f46b49;
+}
+.comment-count {
+    margin-left: 10px;   
+    
+}
+#only-page{
+    font-family: Arial;
+    font-size:12px;
+    font-style:italic;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.twitter-timeline{
+	width: 420px;
+    margin-left: 180px;
+	margin-top: 20px;
+	
+}
+#cnss_widget-2{
+    float: left;
+    margin-top: -50px;
+    width: 50px;
+}
+#social{
+    width: 100px;
+}
+.commentlist{
+	margin-left: 20px;
+	font-family: "Arial",serif;
+	font-size: 13px;
+}
+a.comment-edit-link{
+    color: #000;
+    font-style:italic;
+    margin-left: 50px;
+}
+a:hover.comment-edit-link{
+    color: #f46b49;
+}
+a.comment-reply-link{
+    border: none;
+    background-color: buttonface;
+    cursor: pointer;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.0em;
+    padding: 8px 10px;
+    text-transform: uppercase;
+	color: #313131;
+	margin-left: 200px;
+    width: auto;
+}
+a:hover.comment-reply-link{
+    color: #f46b49;
+}
+#commentform{
+	padding-left: 20px;
+}
+
+#no-comments{
+	font-family: "Arial",serif;
+    font-size:12px;
+    font-style:italic;
+    margin-left: 150px;
+}
+
+@font-face{
+	font-family: TrumpGothicEastMedium;
+	src: url(Fonts/TrumpGotEasMed-webfont.woff);
+}
+@font-face{
+	font-family: LeagueGothicRegular;
+	src: url(Fonts/league_gothic-webfont.woff);
+}
+#commentform label{
+	display: block;
+	font-family: "Georgia",serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #313131;
+	margin-bottom: 3px;
+	-webkit-font-smoothing: antialiased;
+}
+#respond{
+    margin-top: 150px;
+}
+#reply-title{
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	color: #313131;
+	font-weight: normal;
+	text-transform:uppercase;
+	line-height: 1.0em;
+	margin-left: 100px;
+}
+
+#author,#email,#url,#comment{
+    border: 2px solid #e5e5e5;
+	font-size: 18px;
+	width: 28%;
+	vertical-align: top;
+}
+
+#submit{
+    border: none;
+    cursor: pointer;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.0em;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+
+.page{
+    width: 100%;
+    margin-top: 30px;
+}
+.page h1 a{
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+    font-size: 30px;
+    text-transform:uppercase;
+    color: #fff;
+    line-height: 1.0em; 
+    margin-left: 150px; 
+    background-color: #f46b49;
+}
+.page p{
+    font-family: "Georgia",serif;
+    font-size: 12px;
+    font-style: normal;
+     
+    
+}
+
+.wpcf7 p{
+	color: #313131;
+	font-family: "Georgia",serif;
+	font-size: 13px;
+	font-style:normal;
+}
+.wpcf7 form{
+	margin-left: 500px;
+	margin-top: -250px;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea{
+	background-color: #fff;
+	border: 2px solid #e5e5e5;
+}
+.wpcf7 textarea{
+	width: 58%;
+}
+.send-button{
+    border: none;
+    cursor: pointer;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.0em;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+#gallery_87{
+    margin-top: 50px;
+}
+#gallery_87 a{
+    margin-left: 65px;
+}
+#business-hours{
+    clear: both;   
+    float: left;
+    margin-top: -170px;
+    margin-left: 650px;
+}
+#business-hours h3{
+    color: #fff;
+    font-family: 'TrumpGothicEastMedium', 'LeagueGothicRegular', "Impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.0em;
+}
