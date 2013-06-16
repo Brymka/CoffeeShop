@@ -5,10 +5,7 @@
 		<meta charset="UTF-8">
 		<title><?php bloginfo('name'); ?> <?php wp_title(); ?> </title>
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-		 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/default.css" type="text/css" media="screen" />
-		 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styleslider.css" type="text/css" media="screen" />
-		 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/nivo-slider.css" type="text/css" media="screen" />
-		  <?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
+		 <?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
 		 <?php wp_head(); ?>
 	</head>
 	

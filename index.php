@@ -12,6 +12,7 @@
 <?php endif; ?>  
 
 <div class="post-box">
+
 <?php
 $page_num = $paged;
 if ($pagenum='') $pagenum =1;
@@ -47,12 +48,7 @@ query_posts('showposts=3&paged='.$page_num); ?>
 <a class="twitter-timeline" href="https://twitter.com/Brymka17/favorites" data-widget-id="335445289349550080"> Tweets by @Brymka17</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<?php if ( $wp_query->max_num_pages > 1 ) : ?>  
-        <div id="older-posts"><?php next_posts_link('Older Posts'); ?></div>  
-        <div id="newer-posts"><?php previous_posts_link('Newer Posts'); ?></div>  
-<?php else: ?>  
-        <div id="only-page">No newer/older posts</div>  
-<?php endif; ?>  
+ 
 
 </div>
 
